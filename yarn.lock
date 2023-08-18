@@ -2064,11 +2064,6 @@
   resolved "https://registry.yarnpkg.com/@metamask/safe-event-emitter/-/safe-event-emitter-2.0.0.tgz#af577b477c683fad17c619a78208cede06f9605c"
   integrity sha512-/kSXhY692qiV1MXu6EeOZvg5nECLclxNXcKCxJ3cXQgYuRymRHpdx/t7JXfsK+JLjwA1e1c1/SBrlQYpusC29Q==
 
-"@monerium/sdk@^2.3.0":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@monerium/sdk/-/sdk-2.5.1.tgz#11bda2c66a7efd05cc110495af51b36c4da2d48d"
-  integrity sha512-CWZllHiPfhuGJppaD4zm9QQwUUBsxg7RqHI7YADxg+NuBhuG3hSpj0No1sbwvMBTeZVYTk4yt59wWS6u4VMI8Q==
-
 "@mui/base@5.0.0-alpha.119":
   version "5.0.0-alpha.119"
   resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-alpha.119.tgz#923e148ceb84898fdd28da069b7c42635053c128"
@@ -2300,19 +2295,6 @@
     "@web3auth/openlogin-adapter" "^4.3.0"
     ethers "^5.7.2"
 
-"@safe-global/onramp-kit@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@safe-global/onramp-kit/-/onramp-kit-1.3.0.tgz#463482bc4a985b960d29f2ea9a3ac7b54cc28844"
-  integrity sha512-yxyTrh7JMJogVrUd942EuGrJLyUc9Q1V0XoOkzeQYf874pubiglQ+pTi6D6+DfeHUAMLm9aHYAnTmSOenHo8DA==
-  dependencies:
-    "@monerium/sdk" "^2.3.0"
-    "@safe-global/api-kit" "^1.3.0"
-    "@safe-global/protocol-kit" "^1.2.0"
-    "@safe-global/safe-core-sdk-types" "^2.2.0"
-    "@stripe/crypto" "^0.0.4"
-    "@stripe/stripe-js" "^1.52.0"
-    ethers "^5.7.0"
-
 "@safe-global/protocol-kit@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@safe-global/protocol-kit/-/protocol-kit-1.0.0.tgz#92a50d975bc3a9971993590c254a48a184c054bf"
@@ -2491,21 +2473,6 @@
     node-fetch "^2.6.7"
     rpc-websockets "^7.5.1"
     superstruct "^0.14.2"
-
-"@stripe/crypto@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@stripe/crypto/-/crypto-0.0.4.tgz#51dbcb3750c75a6b8a6c8775381af82367359146"
-  integrity sha512-gcD/aG0N90ZrNVppWYf9ADPECptw6PVtF67VIeaFP7fhgd2NvNx8erkzlcvk3VIVSY+bZ6YGX7c7cASoySX74Q==
-
-"@stripe/stripe-js@^1.52.0":
-  version "1.54.1"
-  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.54.1.tgz#e298b80c2963d9e622ea355db6c35df48e08cd89"
-  integrity sha512-smEXPu1GKMcAj9g2luT16+oXfg2jAwyc68t2Dm5wdtYl3p8PqQaZEiI8tQmboaQAjgF8pIGma6byz1T1vgmpbA==
-
-"@stripe/stripe-js@^1.52.1":
-  version "1.52.1"
-  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.52.1.tgz#d821bcd627a34227c20fe87d7c8f8bd4386eaf2e"
-  integrity sha512-fza40OPSpGQlFxc5TZWiYC/6Lk89Sep1fLuv9ss33YS6lCAF8UZbfA1E6W+lwO4c7WRKZIZumHIEbPJfP/O9uw==
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
@@ -6448,7 +6415,7 @@ ethereumjs-util@^7.1.0, ethereumjs-util@^7.1.1, ethereumjs-util@^7.1.5:
     ethereum-cryptography "^0.1.3"
     rlp "^2.2.4"
 
-ethers@5.7.2, ethers@^5.7.0, ethers@^5.7.1, ethers@^5.7.2:
+ethers@5.7.2, ethers@^5.7.1, ethers@^5.7.2:
   version "5.7.2"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-5.7.2.tgz#3a7deeabbb8c030d4126b24f84e525466145872e"
   integrity sha512-wswUsmWo1aOK8rR7DIKiWSw9DbLWe6x98Jrn8wcTflTVvaXhAMaB5zGAXy0GYQEQp9iO1iSHWVyARQm11zUtyg==
