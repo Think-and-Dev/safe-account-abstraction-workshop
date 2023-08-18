@@ -1,5 +1,8 @@
 # Account Abstraction demo app
 
+![Alt text](https://hvsvvszcbocvlblvjssi.supabase.co/storage/v1/object/sign/ss/aa.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzcy9hYS5wbmciLCJpYXQiOjE2OTIzMzkxOTksImV4cCI6MTcyMzg3NTE5OX0.oFFklDn0XEETbGOUKSSNJbCyyfmkXo9rKRrVYOnGoaw&t=2023-08-18T06%3A13%3A19.731Z)
+
+
 ## Installation
 
 Install deps:
@@ -9,6 +12,7 @@ yarn install
 ```
 
 Create a `.env` file (see `example.env`)
+
 
 ```
 # see https://web3auth.io/docs/developer-dashboard/get-client-id
@@ -23,3 +27,14 @@ Run the demo App:
 ```bash
 yarn start
 ```
+
+
+# Documentation
+### Safe{Core} AA Docs 
+https://docs.safe.global/safe-core-aa-sdk/safe-core-sdk
+
+### Gelato Relay
+https://docs.gelato.network/developer-services/relay
+
+### Web3Auth
+https://web3auth.io/docs/quick-start
