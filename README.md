@@ -38,3 +38,7 @@ https://docs.gelato.network/developer-services/relay
 
 ### Web3Auth
 https://web3auth.io/docs/quick-start
+
+
+# Presentation
+https://ipfs.io/ipfs/QmcJNEABLAzfCrMdxFKFtRmCobopf2ETZwyVxweUiKZEgK/workshop%20AA.pdf
